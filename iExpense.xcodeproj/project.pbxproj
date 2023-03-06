@@ -15,6 +15,7 @@
 		E287DEBF29B5D41B00D02FFE /* iExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287DEBE29B5D41B00D02FFE /* iExpenseUITests.swift */; };
 		E287DEC129B5D41B00D02FFE /* iExpenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287DEC029B5D41B00D02FFE /* iExpenseUITestsLaunchTests.swift */; };
 		E287DECE29B5F1DD00D02FFE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287DECD29B5F1DD00D02FFE /* Models.swift */; };
+		E287DED029B5F7D000D02FFE /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287DECF29B5F7D000D02FFE /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E287DEBE29B5D41B00D02FFE /* iExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITests.swift; sourceTree = "<group>"; };
 		E287DEC029B5D41B00D02FFE /* iExpenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E287DECD29B5F1DD00D02FFE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E287DECF29B5F7D000D02FFE /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				E287DEA329B5D41800D02FFE /* iExpenseApp.swift */,
 				E287DEA529B5D41800D02FFE /* ContentView.swift */,
+				E287DECF29B5F7D000D02FFE /* AddView.swift */,
 				E287DECD29B5F1DD00D02FFE /* Models.swift */,
 				E287DEA729B5D41A00D02FFE /* Assets.xcassets */,
 				E287DEA929B5D41A00D02FFE /* Preview Content */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E287DED029B5F7D000D02FFE /* AddView.swift in Sources */,
 				E287DEA629B5D41800D02FFE /* ContentView.swift in Sources */,
 				E287DECE29B5F1DD00D02FFE /* Models.swift in Sources */,
 				E287DEA429B5D41800D02FFE /* iExpenseApp.swift in Sources */,
