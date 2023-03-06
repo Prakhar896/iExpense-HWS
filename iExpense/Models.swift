@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct ExpenseItem {
+struct ExpenseItem: Identifiable { // conformance to identifiable requires an id property that is a type of ObjectIdentifier, which UUID is.
+    let id = UUID()
     let name: String
     let type: String
     let amount: Double
