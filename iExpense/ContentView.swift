@@ -18,13 +18,15 @@ struct ContentView: View {
                     HStack {
                         VStack(alignment: .leading, spacing: 10) {
                             Text(item.name)
-                                .font(.headline)
+                                .font(.system(size: 22, weight: .bold))
                             Text(item.type)
                         }
                         
                         Spacer()
                         
-                        Text(item.amount, format: .currency(code: "USD"))
+                        Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                            .font(.headline)
+                            .foregroundColor(item.amount < 10 ? .green: item.amount < 100 ? .yellow: .red)
                     }
                 }
                 .onDelete(perform: removeItems)
