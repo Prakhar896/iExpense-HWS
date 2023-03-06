@@ -24,7 +24,7 @@ class Expenses: ObservableObject {
     }
     
     init() {
-        if let savedItems = UserDefaults.standard.data(forKey: "Items") {
+        if let savedItems = UserDefaults.standard.data(forKey: "ExpenseItems") {
             if let decodedItems = try? JSONDecoder().decode([ExpenseItem].self, from: savedItems) { // [ExpenseItem].self tells Swift that we are not creating a copy of an array of expense items or doing anything else but that we are decoding from an idea of an array of expense items
                 items = decodedItems
                 return
